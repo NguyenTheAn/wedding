@@ -7838,9 +7838,10 @@ img {
 .donate-modal-header strong{display:flex;align-items:center;justify-content: center;flex-wrap: wrap;color:#fff;}
 
 .donate-modal-header strong span{margin-left:10px;}
-.donate-modal-body {padding: 0 15px;}
+.donate-modal-body {padding: 0 15px; background-color:#fff;}
 .donate-box{display: flex;justify-content: space-evenly;flex-wrap: wrap;}
-.donate-box .donate-card{width: calc(50% - 40px);margin: 10px;padding: 20px;border: 3px solid #c89d9c;border-radius: 10px;text-align: center;background-color:#fff;margin-top:0;}
+
+.donate-box .donate-card{width: calc(50% - 40px);margin: 10px;padding: 20px;border: 3px solid #eb0804;border-radius: 10px;text-align: center;background-color:#fff;margin-top:10px;}
 .donate-box .donate-card:hover{box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);}
 .donate-box .donate-card h3{padding:0;margin:0;margin-bottom: 20px;font-weight: bold;font-size: 18px;line-height: 30px;}
 .donate-box .donate-card p {margin: 10px 0!important;font-size: 16px;}
@@ -7850,6 +7851,7 @@ img {
 }
 .donate-box .donate-card {position:relative;}
 .donate-box .donate-card .qr-code-image{max-width: 150px;border: 1px solid #ccc;padding: 3px;margin: auto;display: block;}
+
 .donate-box .cryptos-box {border-top: 1px solid #f23b43;margin-top: 25px;}
 .donate-box .cryptos-box h4 {margin: 0;margin-top: 20px;text-align: center;}
 .donate-box .cryptos-box .cryptos-items {display: flex;flex-wrap: wrap;justify-content: center;margin-right: -10px;margin-left: -10px;margin-top: 10px;}
